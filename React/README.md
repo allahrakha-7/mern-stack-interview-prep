@@ -79,7 +79,7 @@ const element = React.createElement(
 <p><b>3. Close All Tags:</b> Self-closing tags must end with a slash (e.g., <img />, <br />, <input />).</p>
 
 ## 🧩 Components
-<p>Components are the building blocks of React. They split the UI into independent, reusable pieces. Conceptually, components are like JavaScript functions: they accept arbitrary inputs (called "Props") and return React elements describing what should appear on the screen.</p>
+<p>A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page. Components are the building blocks of React. They split the UI into independent, reusable pieces. Conceptually, components are like JavaScript functions: they accept arbitrary inputs (called "Props") and return React elements describing what should appear on the screen.</p>
 
 #### 1. Functional Components (The Modern Standard)
 A simple JavaScript function that accepts props and returns JSX. Since React 16.8 (Hooks), these are the primary way to write React code.
